@@ -1,0 +1,37 @@
+
+.main{
+    background: #ccc;
+    text: white;
+    width: 50vw;
+    margin: auto;
+    font-size: 1rem;
+    margin-top: 10vh;
+    padding: 1.4rem;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+  .main{
+    width: 95vw;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  /* For tablets: */
+  .main{
+    width: 75vw;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  /* For tablets: */
+  .main {
+    width: 50vw;
+  }
+}
